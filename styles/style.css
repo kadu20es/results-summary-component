@@ -75,7 +75,7 @@
         background: linear-gradient(180deg, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
         padding: 30px;
         height: 420px;
-        border-radius: 25px 0 0 25px;
+        border-radius: 25px;
         text-align: center;
     }
 
