@@ -12,7 +12,7 @@
     font-size: 18px;
 }
 
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 699px) {
     .wrapper {
         font-family: "Hanken Grotesk";
         width: 100%;
@@ -55,22 +55,28 @@
 }
 
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 700px) {
     .wrapper {
         font-family: "Hanken Grotesk";
-        width: 650px;
-        margin: auto;
-        margin-top: 5vh;
+        width: 700px;
         display: grid;
         grid-template-columns: repeat(2, 50%);
         box-shadow: 10px 10px 20px hsla(0, 0%, 62%, 0.527);
         border-radius: 25px;
+
+
+        top: 30%;
+        -ms-transform: translateY(-30%);
+        transform: translateY(30%);
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .card-left {
         padding: 2em;
         background: linear-gradient(180deg, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
         padding: 30px;
+        height: 380px;
         border-radius: 25px 0 0 25px;
         text-align: center;
     }
@@ -80,8 +86,8 @@
     }
 
     .circle {
-        width: 150px;
-        height: 150px;
+        width: 170px;
+        height: 170px;
         border-radius: 50%;
         margin-top: 25px;
         margin-bottom: 25px;
