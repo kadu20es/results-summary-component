@@ -12,93 +12,44 @@
     font-size: 18px;
 }
 
-@media screen and (max-width: 699px) {
-    .wrapper {
-        font-family: "Hanken Grotesk";
-        width: 100%;
-        margin: auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-content: center;
-        align-items: center;
-    }
-
-    .card-left {
-        padding: 2em;
-        background: linear-gradient(180deg, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
-        padding: 25px 50px 40px 50px;
-        border-radius: 0 0 25px 25px;
-        text-align: center;
-    }
-
-    .card-right {
-        width: 100%;
-    }
-
-    .circle {
-        width: 150px;
-        height: 150px;
-        border-radius: 50%;
-        margin-top: 25px;
-        margin-bottom: 25px;
-        margin-left: auto;
-        margin-right: auto;
-        background: linear-gradient(180deg, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        align-content: center;
-        justify-content: center;
-        align-items: center;
-    }
+.wrapper {
+    font-family: "Hanken Grotesk";
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
 }
 
+.card-left {
+    padding: 2em;
+    background: linear-gradient(180deg, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    padding: 25px 50px 40px 50px;
+    border-radius: 0 0 25px 25px;
+    text-align: center;
+}
 
-@media screen and (min-width: 700px) {
-    .wrapper {
-        font-family: "Hanken Grotesk";
-        width: 700px;
-        display: grid;
-        grid-template-columns: repeat(2, 50%);
-        box-shadow: 10px 10px 20px hsla(0, 0%, 62%, 0.527);
-        border-radius: 25px;
-        top: 30%;
-        -ms-transform: translateY(-30%);
-        transform: translateY(30%);
-        margin-left: auto;
-        margin-right: auto;
-    }
+.card-right {
+    width: 100%;
+}
 
-    .card-left {
-        padding: 2em;
-        background: linear-gradient(180deg, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
-        padding: 30px;
-        height: 420px;
-        border-radius: 25px;
-        text-align: center;
-    }
-
-    .card-right {
-        border-radius: 0 25px 25px 0;
-    }
-
-    .circle {
-        width: 170px;
-        height: 170px;
-        border-radius: 50%;
-        margin-top: 45px;
-        margin-bottom: 35px;
-        margin-left: auto;
-        margin-right: auto;
-        background: linear-gradient(180deg, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        align-content: center;
-        justify-content: center;
-        align-items: center;
-    }
+.circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(180deg, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .card-left:first-child {
@@ -157,6 +108,7 @@ td {
 .icon {
     width: 10%;
     border-radius: 10px 0 0 10px;
+
 }
 
 .tabres {
@@ -185,16 +137,14 @@ td {
     background-color: #f9f3ff;
     color: hsl(234, 85%, 45%);
 }
+
 .final {
     color: #000;
     padding: 0.2em;
 }
+
 .proposed {
     color: #9e9e9e;
-}
-
-.icon {
-
 }
 
 /* ----------------------------------------------------- */
@@ -221,5 +171,58 @@ td {
     border: none;
     background-color: #18466e;
     color: #FFF;
+}
+
+@media screen and (min-width: 700px) {
+    .wrapper {
+        font-family: "Hanken Grotesk";
+        width: 700px;
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        box-shadow: 10px 10px 20px hsla(0, 0%, 62%, 0.527);
+        border-radius: 25px;
+        top: 30%;
+        -ms-transform: translateY(-30%);
+        transform: translateY(30%);
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .card-left {
+        padding: 2em;
+        background: linear-gradient(180deg, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+        padding: 30px;
+        height: 420px;
+        border-radius: 25px;
+        text-align: center;
+    }
+
+    .card-right {
+        border-radius: 0 25px 25px 0;
+    }
+
+    .circle {
+        width: 170px;
+        height: 170px;
+        border-radius: 50%;
+        margin-top: 45px;
+        margin-bottom: 35px;
+        margin-left: auto;
+        margin-right: auto;
+        background: linear-gradient(180deg, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: separate;
+        border-spacing: 0 1em;
+        font-size: 1.2rem;
+    }
 }
 
