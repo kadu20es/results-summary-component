@@ -5,10 +5,10 @@
 
 @font-face {
     font-family: "Hanken Grotesk";
-    src: url("../../assets/fonts/HankenGrotesk-VariableFont_wght.ttf");
-    src: url("../../assets/fonts/static/HankenGrotesk-bold.ttf");
-    src: url("../../assets/fonts/static/HankenGrotesk-ExtraBold.ttf");
-    src: url("../../assets/fonts/static/HankenGrotesk-Medium.ttf");
+    src: url("../assets/fonts/HankenGrotesk-VariableFont_wght.ttf");
+    src: url("../assets/fonts/static/HankenGrotesk-Bold.ttf");
+    src: url("../assets/fonts/static/HankenGrotesk-ExtraBold.ttf");
+    src: url("../assets/fonts/static/HankenGrotesk-Medium.ttf");
     font-size: 18px;
 }
 
@@ -159,6 +159,7 @@ td {
     width: 35%;
     border-radius: 0 10px 10px 0;
     text-align: center;
+    color: #000;
 }
 
 .reaction {

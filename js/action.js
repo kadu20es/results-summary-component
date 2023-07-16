@@ -21,6 +21,7 @@ function showInfo(data) {
     data.forEach(element => {
         const tr = document.createElement('tr');
         const img = document.createElement('img');
+        const span = document.createElement('span');
 
         /* creates line */
         tr.setAttribute('class', `${(element.category).toLowerCase()} tabline`);
@@ -45,8 +46,13 @@ function showInfo(data) {
         /* defines results */
         tdScore = document.createElement('td');
         tdScore.setAttribute('class', 'tabres');
-        text = document.createTextNode(`${element.score} / 100`);
+
+        text = document.createTextNode(`${element.score} `);
         tdScore.appendChild(text);
+        span.setAttribute('style',  "color: #9e9e9e");
+        text = document.createTextNode("/ 100");
+        span.appendChild(text);
+        tdScore.appendChild(span);
         tr.appendChild(tdScore);
 
 
