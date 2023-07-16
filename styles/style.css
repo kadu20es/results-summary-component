@@ -12,51 +12,7 @@
     font-size: 18px;
 }
 
-/*
-@media screen and (min-width: 374px) {
-    .wrapper {
-        font-family: "Hanken Grotesk";
-        width: 100%;
-        margin: auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-content: center;
-        align-items: center;
-    }
-
-    .card-left {
-        padding: 2em;
-        background: linear-gradient(180deg, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
-        padding: 25px 50px 40px 50px;
-        border-radius: 0 0 25px 25px;
-        text-align: center;
-    }
-
-    .card-right {
-        width: 100%;
-    }
-
-    .circle {
-        width: 150px;
-        height: 150px;
-        border-radius: 50%;
-        margin-top: 25px;
-        margin-bottom: 25px;
-        margin-left: auto;
-        margin-right: auto;
-        background: linear-gradient(180deg, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        align-content: center;
-        justify-content: center;
-        align-items: center;
-    }
-}
-*/
-
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 599px) {
     .wrapper {
         font-family: "Hanken Grotesk";
         width: 100%;
